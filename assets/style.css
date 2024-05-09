@@ -1,137 +1,140 @@
 body {
   background-color: #ffffff;
-	font-family: "Lexend", sans-serif;
-	margin: 0;
-	padding: 0;
+  font-family: "Lexend", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-	background-color: #3A5A40;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
+  background-color: #3a5a40;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 navlog {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	max-width: 1200px;
-	margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo a {
-	color: #fff;
-	font-size: 24px;
-	font-weight: 700;
-	text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 navlog ul {
-	list-style-type: none;
-	display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
 navlog li {
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
 navlog a {
-	color: #fff;
-	text-decoration: none;
-	padding: 10px;
-	border-radius: 5px;
-	transition: background-color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 navlog a:hover {
-	background-color: #5a8d65;
+  background-color: #5a8d65;
 }
 
 .judul {
-	background-color: #3A5A40;
-	color: #fff;
-	text-align: center;
-	padding: 100px 20px;
+  background-color: #3a5a40;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
 }
 
 .judul h1 {
-	font-size: 36px;
-	margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .judul p {
-	font-size: 18px;
-	max-width: 600px;
-	margin: 0 auto;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .kategori {
-    margin-left: 50px;
-    margin-bottom: none;
+  margin-left: 50px;
+  margin-bottom: none;
 }
 
 .paragraf {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
 }
 
 .container {
-    display: flex;
+  display: flex;
 }
 
 nav {
-    padding: 20px;
-    border-radius: auto;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-bottom: 7px;
-    margin-left: 20px;
+  padding: 20px;
+  border-radius: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 7px;
+  margin-left: 20px;
 }
 
 nav a {
-    color: #70AF85;
-    text-decoration: none;  
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #fff;
-    border: 1px solid #70AF85;
-    border-radius: 30px;
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;
+  color: #70af85;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #70af85;
+  border-radius: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 nav a:hover {
-    background-color: #70AF85;
-    color: #fff;
+  background-color: #70af85;
+  color: #fff;
 }
 
 main {
-    padding: 20px;
-    flex-grow: 1;
+  padding: 20px;
+  flex-grow: 1;
 }
 
 article {
-	border: 1px solid #ddd;
-    border-radius: 10px;
-	padding: 20px;
-    margin-top: 20px;
-	margin-bottom: 20px;
-	cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .article-image {
-    max-width: 200px; 
-    height: auto;
-    float: right; 
-    margin-left: 20px;
-    margin-bottom: 10px;
+  max-width: 200px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 footer {
-	background-color: #3A5A40;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
+  background-color: #3a5a40;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.article-title {
+  color: black;
 }
